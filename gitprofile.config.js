@@ -3,7 +3,7 @@
 const config = {
   github: {
     username: 'Harmeetrai', // Your GitHub org/user name. (Required)
-    sortBy: 'stars', // stars | updated
+    sortBy: 'updated', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
@@ -11,81 +11,68 @@ const config = {
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
+    linkedin: 'harmeet-rai-914386147',
     facebook: '',
     dribbble: '',
     behance: '',
     medium: '',
-    dev: 'arifszn',
-    website: 'https://arifszn.github.io',
+    dev: 'harmeetrai',
+    website: 'http://harmeetrai.me',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'hsr4@sfu.ca',
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
+    'Python',
+    'C++',
+    'Java',
     'React.js',
     'Node.js',
-    'MySQL',
+    'SQL',
     'Git',
     'Docker',
     'CSS',
-    'Antd',
-    'Tailwind',
-    'Bootstrap',
+    'R',
+    'Machine Learning',
+    'Cloud Development (AWS)',
   ],
   experiences: [
     {
-      company: 'Monstarlab Bangladesh',
-      position: 'Backend Engineer II',
-      from: 'September 2021',
+      company: 'Rai Video Production',
+      position: 'Manager',
+      from: '2014',
       to: 'Present',
     },
     {
-      company: 'My Offer 360 Degree',
-      position: 'Web Application Developer',
-      from: 'July 2019',
-      to: 'August 2021',
+      company: 'Youth Aid International',
+      position: 'Fundraising Coordinator',
+      from: 'September 2016',
+      to: 'September 2020',
     },
   ],
   education: [
     {
-      institution: 'American International University-Bangladesh',
+      institution: 'Simon Frasor University',
       degree: 'Bachelor of Science',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Cantonment College, Jessore',
-      degree: 'Higher Secondary Certificate (HSC)',
-      from: '2012',
-      to: '2014',
-    },
-    {
-      institution: 'Chowgacha Shahadat Pilot High School',
-      degree: 'Secondary School Certificate (SSC)',
-      from: '2007',
-      to: '2012',
+      from: '2020',
+      to: '2024',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn',
+    username: 'harmeetrai',
     limit: 3, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
     // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
-    id: 'G-WLLB5E14M6', // Please remove this and use your own tag id or keep it empty
+    id: '', // Please remove this and use your own tag id or keep it empty
   },
   hotjar: {
-    id: '2617601', //  Please remove this and use your own id or keep it empty
+    id: '', //  Please remove this and use your own id or keep it empty
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'corporate',
+    defaultTheme: 'dracula',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
